@@ -8,8 +8,8 @@ func addNums(a: Int, b: Int) -> Int {
 func foo() {
   var myOptional: String? = nil
 
-  let max = arr.sorted().last // trivia
-  let min = /* trivia */ arr.sorted().first
+  let max1 = arr1.sorted().last // trivia
+  let min1 = /* trivia */ arr1.sorted().first
 
   var someVar: Int? = nil {
     if otherVar != nil { }
