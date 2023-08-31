@@ -1,11 +1,4 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-books
+import CryptoSwift
 
-func addNums(a: Int, b: Int) -> Int {
-  return a + b
-}
-
-func foo() {
-  let max = arr.sorted().last // trivia
-  let min = /* trivia */ arr.sorted().first
-}
+let blockMode = ECB() // Use of `ECB` is not safe
+_ = try AES(key: key, blockMode: blockMode, padding: padding)
