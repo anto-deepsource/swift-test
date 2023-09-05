@@ -4,6 +4,15 @@ let blockMode = ECB() // Use of `ECB` is not safe
 _ = try AES(key: key, blockMode: blockMode, padding: padding)
 
 
+func foo() {
+        if true {}
+        else if true {}
+        else if true {}
+        else if true {}
+        else if true {}
+        else {}
+}
+
 func makeRoute(url: URL) -> Route? {
         guard let urlScanner = URLScanner(url: url) else { return nil }
 
