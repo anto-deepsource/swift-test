@@ -8,3 +8,6 @@ name = "swift"
 
   [analyzers.meta]
   swift_version = "3.0"
+
+[[transformers]]
+name = "swift-format"
